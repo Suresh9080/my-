@@ -34,6 +34,7 @@ export default function Projects() {
                     <a href={project.link}>
                         <div className='relative'>
                             <img className='h-[200px] w-[500px]' src={project.image} />
+                            <img src="image.png" alt="project image"></img>
                             <div className='project-desc' >
                                 <p className='text-center py-5 '>{project.description}</p>
                                 <div className='flex justify-center'>
